@@ -1,0 +1,38 @@
+export const PRODUCT_DATA = [
+  {
+    id: '1',
+    product: 'Game Console',
+    image: require('../../assets/products/ps5.png'),
+    bigImage: require('../../assets/products/big_ps5.png'),
+    title: 'Game console',
+    description: 'Playstation 5 Digital Edition',
+    price: 100,
+  },
+  {
+    id: '2',
+    product: 'Game Console',
+    image: require('../../assets/products/ps5_2.png'),
+    bigImage: require('../../assets/products/big_ps5_2.png'),
+    title: 'Game console',
+    description: 'Playstation 5',
+    price: 200,
+  },
+  {
+    id: '3',
+    product: 'Dual Sense',
+    image: require('../../assets/products/controller.png'),
+    bigImage: require('../../assets/products/big_controller.png'),
+    title: 'Gaming Controller',
+    description: 'DualSense Wireless Controller',
+    price: 300,
+  },
+  {
+    id: '4',
+    product: 'Headset',
+    image: require('../../assets/products/headset.png'),
+    bigImage: require('../../assets/products/big_headset.png'),
+    title: 'Audio and Communication',
+    description: 'Wireless Headset',
+    price: 400,
+  },
+]
